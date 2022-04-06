@@ -59,12 +59,13 @@
             text-transform: uppercase;
             transition: all .3s ease 0s;
         }
-        .header-navbar ul li.active a {
-            border-top-left-radius: 4px;
-            border-top-right-radius: 4px;
-            background: #fff;
-            color: #000;
-        }
+            .header-navbar ul li a.login.active,
+            .header-navbar ul li.active a {
+                border-top-left-radius: 4px;
+                border-top-right-radius: 4px;
+                background: #fff;
+                color: #000;
+            }
     .header-navbar.black ul li a {
         color: #fff;
     }

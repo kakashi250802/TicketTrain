@@ -1,16 +1,17 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="TicketTrain.index" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="TicketTrain.Login" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>DVA - Web bán vé tàu</title>
+    <title>Đăng Nhập</title>
     <link href="Assets/css/header.css" rel="stylesheet" />
-    <link href="Assets/css/main.css" rel="stylesheet" />
     <link href="Assets/css/footer.css" rel="stylesheet" />
+    <link href="Assets/css/main.css" rel="stylesheet" />
+    <link href="Assets/css/login.css" rel="stylesheet" />
 </head>
 <body>
-    <form id="form1" runat="server">
+    <form id="loginForm" runat="server">
         <div class="wrapped">
             <nav class="header-navbar">
                 <div class="logo">
@@ -19,22 +20,32 @@
                     </a>
                 </div>
                 <ul class="menu-list">
-                <li class="active"><a href="index.aspx">Trang chủ</a></li>
+                <li class=""><a href="index.aspx">Trang chủ</a></li>
                 <li ><a href="chuyenDi.aspx">Chuyến Đi</a></li>
                 <li ><a href="TinTuc.html">Tin Tức</a></li>
                 </ul>
                 <ul class="menu-list">
-                    <li><a class="login" href="Login.aspx">Đăng nhập</a></li>
+                    <li><a class="login active" href="Login.aspx">Đăng nhập</a></li>
 
                 </ul>
             </nav>
-            <section class="sec1"></section>
-            <section class="content">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, excepturi exercitationem accusamus a laudantium voluptatibus blanditiis. Beatae, sit vel id at rerum provident error. Sapiente quae quisquam et reiciendis eius magnam autem maiores, voluptatem commodi. Sit, repellat. Accusantium perspiciatis id ullam ab. Nisi placeat deleniti ullam autem laboriosam. Vel aperiam ipsum, dolorem earum eum cum veritatis deserunt at qui? Eveniet sed, ullam quia esse molestias a ex eius modi. Molestias, sapiente. Totam voluptatum facilis veritatis nesciunt ratione nihil eos sapiente impedit voluptatem in! Exercitationem in omnis dolorum explicabo dolore.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, excepturi exercitationem accusamus a laudantium voluptatibus blanditiis. Beatae, sit vel id at rerum provident error. Sapiente quae quisquam et reiciendis eius magnam autem maiores, voluptatem commodi. Sit, repellat. Accusantium perspiciatis id ullam ab. Nisi placeat deleniti ullam autem laboriosam. Vel aperiam ipsum, dolorem earum eum cum veritatis deserunt at qui? Eveniet sed, ullam quia esse molestias a ex eius modi. Molestias, sapiente. Beatae, sit vel id at rerum provident error. Sapiente quae quisquam et reiciendis eius magnam autem maiores, voluptatem commodi. Sit, repellat. Accusantium perspiciatis id ullam ab. Nisi placeat deleniti ullam autem laboriosam. Vel aperiam ipsum, dolorem earum eum cum veritatis deserunt at qui? Eveniet sed, ullam quia esse molestias a ex eius modi. Molestias, sapiente.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, excepturi exercitationem accusamus a laudantium voluptatibus blanditiis. Beatae, sit vel id at rerum provident error. Sapiente quae quisquam et reiciendis eius magnam autem maiores, voluptatem commodi. Sit, repellat. Accusantium perspiciatis id ullam ab. Nisi placeat deleniti ullam autem laboriosam. Vel aperiam ipsum, dolorem earum eum cum veritatis deserunt at qui? Eveniet sed, ullam quia esse molestias a ex eius modi. Molestias, sapiente. Beatae, sit vel id at rerum provident error. Sapiente quae quisquam et reiciendis eius magnam autem maiores, voluptatem commodi. Sit, repellat. Accusantium perspiciatis id ullam ab. Nisi placeat deleniti ullam autem laboriosam. Vel aperiam ipsum, dolorem earum eum cum veritatis deserunt at qui? Eveniet sed, ullam quia esse molestias a ex eius modi. Molestias, sapiente.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, excepturi exercitationem accusamus a laudantium voluptatibus blanditiis. Beatae, sit vel id at rerum provident error. Sapiente quae quisquam et reiciendis eius magnam autem maiores, voluptatem commodi. Sit, repellat. Accusantium perspiciatis id ullam ab. Nisi placeat deleniti ullam autem laboriosam. Vel aperiam ipsum, dolorem earum eum cum veritatis deserunt at qui? Eveniet sed, ullam quia esse molestias a ex eius modi. Molestias, sapiente. Beatae, sit vel id at rerum provident error. Sapiente quae quisquam et reiciendis eius magnam autem maiores, voluptatem commodi. Sit, repellat. Accusantium perspiciatis id ullam ab. Nisi placeat deleniti ullam autem laboriosam. Vel aperiam ipsum, dolorem earum eum cum veritatis deserunt at qui? Eveniet sed, ullam quia esse molestias a ex eius modi. Molestias, sapiente.</p>
-            </section>
+            <main>
+<div class="card">
+   <div >
+      <h2 class="title"> Đăng Nhập</h2>
+      <p class="subtitle">Chưa có tài khoản? <a href="DangKy.aspx"> Đăng Ký</a></p>
+      <p class="or"><span>or</span></p>
+      <div class="email-login">
+         <label for="email"> <b>Email</b></label>
+         <input type="text" placeholder="Enter Email" name="uname" />
+         <label for="psw"><b>Password</b></label>
+         <input type="password" placeholder="Enter Password" name="psw" />
+      </div>
+      <button class="cta-btn">Đăng Nhập</button>
+      <a class="forget-pass" href="ForgotPass.aspx">Quên Mật Khẩu?</a>
+   </div>
+</div>
+            </main>
             <footer>
                 <div class="container">
                     <!--Bắt Đầu Nội Dung Giới Thiệu-->

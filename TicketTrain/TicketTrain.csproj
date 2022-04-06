@@ -67,8 +67,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\css\fogotPass.css" />
     <Content Include="Assets\css\footer.css" />
     <Content Include="Assets\css\header.css" />
+    <Content Include="Assets\css\login.css" />
     <Content Include="Assets\css\main.css" />
     <Content Include="Assets\font\boxicons-2.1.2\css\animations.css" />
     <Content Include="Assets\font\boxicons-2.1.2\css\boxicons.css" />
@@ -1678,11 +1680,38 @@
     <Content Include="Assets\font\boxicons-2.1.2\svg\solid\bxs-zoom-out.svg" />
     <Content Include="Assets\img\favicon-16x16.png" />
     <Content Include="Assets\img\logo.png" />
+    <Content Include="ChuyenDi.aspx" />
+    <Content Include="DangKy.aspx" />
+    <Content Include="ForgotPass.aspx" />
     <Content Include="Global.asax" />
     <Content Include="index.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="TinTuc.html" />
+    <Content Include="User.xml" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChuyenDi.aspx.cs">
+      <DependentUpon>ChuyenDi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ChuyenDi.aspx.designer.cs">
+      <DependentUpon>ChuyenDi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DangKy.aspx.cs">
+      <DependentUpon>DangKy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DangKy.aspx.designer.cs">
+      <DependentUpon>DangKy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ForgotPass.aspx.cs">
+      <DependentUpon>ForgotPass.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ForgotPass.aspx.designer.cs">
+      <DependentUpon>ForgotPass.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -1692,6 +1721,13 @@
     </Compile>
     <Compile Include="index.aspx.designer.cs">
       <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

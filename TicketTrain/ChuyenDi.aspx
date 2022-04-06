@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="TicketTrain.index" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ChuyenDi.aspx.cs" Inherits="TicketTrain.ChuyenDi" %>
 
 <!DOCTYPE html>
 
@@ -10,8 +10,8 @@
     <link href="Assets/css/footer.css" rel="stylesheet" />
 </head>
 <body>
-    <form id="form1" runat="server">
-        <div class="wrapped">
+    <form id="chuyendiForm" runat="server">
+<div class="wrapped">
             <nav class="header-navbar">
                 <div class="logo">
                     <a href="index.aspx">
@@ -19,8 +19,8 @@
                     </a>
                 </div>
                 <ul class="menu-list">
-                <li class="active"><a href="index.aspx">Trang chủ</a></li>
-                <li ><a href="chuyenDi.aspx">Chuyến Đi</a></li>
+                <li ><a href="index.aspx">Trang chủ</a></li>
+                <li class="active"><a href="chuyenDi.aspx">Chuyến Đi</a></li>
                 <li ><a href="TinTuc.html">Tin Tức</a></li>
                 </ul>
                 <ul class="menu-list">

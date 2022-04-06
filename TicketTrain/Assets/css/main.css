@@ -2,6 +2,10 @@
     padding:0;
     margin: 0;
 }
+a{
+    text-decoration:none;
+    color:currentColor;
+}
 @font-face {
     font-family: rbBold;
     src: url(../font/Roboto-Bold.ttf);
