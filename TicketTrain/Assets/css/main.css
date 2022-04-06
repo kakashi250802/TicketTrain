@@ -1,0 +1,9 @@
+﻿* {
+    padding:0;
+    margin: 0;
+}
+@font-face {
+    font-family: rbBold;
+    src: url(../font/Roboto-Bold.ttf);
+    font-weight: bold;
+}

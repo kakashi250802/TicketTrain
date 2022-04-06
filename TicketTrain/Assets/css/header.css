@@ -1,0 +1,98 @@
+﻿body {
+    font-family: Roboto, sans-serif;
+}
+
+.header-navbar {
+    font-family: rbBold;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 100px 0;
+    box-sizing: border-box;
+    transition: .3s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #018DCE;
+}
+
+    .header-navbar.black {
+        background-color: rgba(0, 0, 0, .8);
+    }
+
+    .header-navbar .logo {
+        padding: 22px 20px;
+        height: 80px;
+        font-size: 28px;
+        transition: .3s;
+        font-weight: 900;
+        letter-spacing: 3px;
+        float: left;
+    }
+
+    .header-navbar.black .logo {
+        color: #fff;
+    }
+
+    .header-navbar ul {
+        list-style: none;
+        float: right;
+        display: flex;
+    }
+
+        .header-navbar ul li {
+            list-style: none;
+        }
+        .header-navbar ul > * ~ * {
+            margin-left: 40px;
+        }
+        .header-navbar ul li a {
+            display: flex;
+            justify-content: center;
+            height: 89px;
+            width: 120px;
+            line-height: 80px;
+            color: #ffffff;
+            text-decoration: none;
+            text-transform: uppercase;
+            transition: all .3s ease 0s;
+        }
+        .header-navbar ul li.active a {
+            border-top-left-radius: 4px;
+            border-top-right-radius: 4px;
+            background: #fff;
+            color: #000;
+        }
+    .header-navbar.black ul li a {
+        color: #fff;
+    }
+
+    .header-navbar ul li a:focus {
+    }
+
+    .header-navbar ul li a.login {
+        background-color: #E2472F;
+        padding:0 20px;
+        border-radius: 5px;
+    }
+
+.sec1 {
+    background-image: url(https://images.pexels.com/photos/33545/sunrise-phu-quoc-island-ocean.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.content {
+    margin-top: 80px;
+}
+
+    .content p {
+        width: 1200px;
+        margin: 30px auto;
+        font-size: 16px;
+        line-height: 30px;
+    }
