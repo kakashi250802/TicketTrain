@@ -47,10 +47,9 @@
                 eaque quo dolorum.
                         </p>
                         <ul class="social-icon">
-                            <li><a href=""><i class="fa fa-facebook"></i></a></li>
-                            <li><a href=""><i class="fa fa-twitter"></i></a></li>
-                            <li><a href=""><i class="fa fa-instagram"></i></a></li>
-                            <li><a href=""><i class="fa fa-youtube"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
                         </ul>
                     </div>
                     <!--Kết Thúc Nội Dung Giới Thiệu-->
