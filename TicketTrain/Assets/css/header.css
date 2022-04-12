@@ -78,22 +78,3 @@
         padding:0 20px;
         border-radius: 5px;
     }
-
-.sec1 {
-    background-image: url(https://images.pexels.com/photos/33545/sunrise-phu-quoc-island-ocean.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
-    width: 100%;
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-}
-
-.content {
-    margin-top: 80px;
-}
-
-    .content p {
-        width: 1200px;
-        margin: 30px auto;
-        font-size: 16px;
-        line-height: 30px;
-    }

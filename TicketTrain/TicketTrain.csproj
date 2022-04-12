@@ -67,8 +67,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\css\chuyendi.css" />
     <Content Include="Assets\css\fogotPass.css" />
     <Content Include="Assets\css\footer.css" />
+    <Content Include="Assets\css\grid.css" />
     <Content Include="Assets\css\header.css" />
     <Content Include="Assets\css\login.css" />
     <Content Include="Assets\css\main.css" />
@@ -1678,7 +1680,11 @@
     <Content Include="Assets\font\boxicons-2.1.2\svg\solid\bxs-zap.svg" />
     <Content Include="Assets\font\boxicons-2.1.2\svg\solid\bxs-zoom-in.svg" />
     <Content Include="Assets\font\boxicons-2.1.2\svg\solid\bxs-zoom-out.svg" />
+    <Content Include="Assets\img\BackgroundTauHoa.png" />
+    <Content Include="Assets\img\datetime.svg" />
     <Content Include="Assets\img\favicon-16x16.png" />
+    <Content Include="Assets\img\gasend.svg" />
+    <Content Include="Assets\img\gasStart.svg" />
     <Content Include="Assets\img\logo.png" />
     <Content Include="ChuyenDi.aspx" />
     <Content Include="DangKy.aspx" />

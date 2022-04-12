@@ -11,3 +11,108 @@ a{
     src: url(../font/Roboto-Bold.ttf);
     font-weight: bold;
 }
+.form{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100%;
+}
+.form-booking{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background: rgba(255,255,255,0.6);
+  border-radius: 42px;
+  max-width: 1000px;
+  overflow: hidden;
+}
+.form-field:first-child{
+    padding: 20px 40px 20px;
+}
+.form-field:last-child{
+  padding: 16px 40px 16px;
+}
+.form-field {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 20px 30px;
+  justify-content: center;
+  border-left: 1px solid #524949;
+  transition: all 0.3s ease-in-out 0s;
+  color: #414141;
+}
+
+
+.form-field > .form-main{
+  display: flex;
+  flex-direction: column;
+  margin-left:8px;
+}
+.form-field > .img img{
+  width: 40px;
+}
+.btn{
+  cursor: pointer;
+}
+.btn-xs{
+  padding: 18px 20px !important;
+  background: #018DCE !important;
+  border-radius: 12px;
+  color: #ffffff !important;
+  font-weight: 600 !important;
+  text-transform: capitalize;
+  margin-top: 0 !important;
+  width: 140px;
+  transition: all 0.5s ease 0s;
+}
+.form-field:hover{
+  background:#fff;
+  color: #000 !important;
+}
+
+.btn-primary:hover{
+  color: #000 !important;
+  background-color: #E2472F !important;
+}
+
+.sec1 {
+  background-image: url('../img/BackgroundTauHoa.png');
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+}
+
+.content {
+  margin-top: 80px;
+}
+
+  .content p {
+      width: 1200px;
+      margin: 30px auto;
+      font-size: 16px;
+      line-height: 30px;
+  }
+.form-main > input{
+  min-width: 120px;
+  width: 100%;
+  /* max-width: 300px; */
+  padding: 4px 10px;
+  font-size: 16px;
+  font-weight: 600;
+  background: rgba(255,255,255,0.5);
+  border: 1px solid #000;
+}
+.btn-search {
+  display: flex !important;
+  align-items: center;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 16px;
+}
+.btn-search > i {
+  font-size: 20px;
+}
