@@ -32,12 +32,7 @@ img {
     max-width: 100%;
 }
 
-/*.container {
-    max-width: 1366px;
-    margin: auto;
-    padding: 0 20px;
-    position: relative;
-}*/
+
 
 .bg-second {
     background-color: var(--second-bg-color);
@@ -169,17 +164,27 @@ ul.devided > li {
     }
 
 
-.box {
-    padding: 20px;
-}
+
 
     .box > ul > li {
         border-bottom: 2px solid transparent;
     }
 
-
-
-
+.booking-inf{
+  margin-top: 16px;
+  background: var(--third-bg-color);
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dateStart{
+  display:flex;
+  align-items: center;
+  padding-right: 20px;
+}
+.filter-col{
+  border-right: 1px solid #ccc;
+}
 .btn-flat {
     display: inline-block;
     border: 2px solid var(--btn-border-color);
@@ -749,3 +754,8 @@ ul.devided > li {
             cursor: pointer;
             color: var(--black);
         }
+.train-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

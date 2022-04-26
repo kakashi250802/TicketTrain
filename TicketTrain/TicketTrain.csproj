@@ -74,9 +74,11 @@
     <Content Include="Assets\css\header.css" />
     <Content Include="Assets\css\login.css" />
     <Content Include="Assets\css\main.css" />
+    <Content Include="Assets\css\responsive.css" />
     <Content Include="Assets\font\boxicons-2.1.2\css\animations.css" />
     <Content Include="Assets\font\boxicons-2.1.2\css\boxicons.css" />
     <Content Include="Assets\font\boxicons-2.1.2\css\boxicons.min.css" />
+    <Content Include="Assets\font\boxicons-2.1.2\css\TinTuc.css" />
     <Content Include="Assets\font\boxicons-2.1.2\css\transformations.css" />
     <Content Include="Assets\font\boxicons-2.1.2\fonts\boxicons.svg" />
     <Content Include="Assets\font\boxicons-2.1.2\LICENSE.txt" />
@@ -1686,13 +1688,19 @@
     <Content Include="Assets\img\gasend.svg" />
     <Content Include="Assets\img\gasStart.svg" />
     <Content Include="Assets\img\logo.png" />
+    <Content Include="Assets\js\dangky.js" />
+    <Content Include="Assets\js\dangnhap.js" />
+    <Content Include="Assets\js\header.js" />
     <Content Include="ChuyenDi.aspx" />
     <Content Include="DangKy.aspx" />
+    <Content Include="dangxuat.aspx" />
     <Content Include="ForgotPass.aspx" />
+    <Content Include="GioHang.aspx" />
     <Content Include="Global.asax" />
     <Content Include="index.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="TinTuc.html" />
+    <Content Include="TinTuc1.html" />
     <Content Include="User.xml" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -1711,12 +1719,26 @@
     <Compile Include="DangKy.aspx.designer.cs">
       <DependentUpon>DangKy.aspx</DependentUpon>
     </Compile>
+    <Compile Include="dangxuat.aspx.cs">
+      <DependentUpon>dangxuat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="dangxuat.aspx.designer.cs">
+      <DependentUpon>dangxuat.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ForgotPass.aspx.cs">
       <DependentUpon>ForgotPass.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ForgotPass.aspx.designer.cs">
       <DependentUpon>ForgotPass.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GioHang.aspx.cs">
+      <DependentUpon>GioHang.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GioHang.aspx.designer.cs">
+      <DependentUpon>GioHang.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -1728,6 +1750,13 @@
     <Compile Include="index.aspx.designer.cs">
       <DependentUpon>index.aspx</DependentUpon>
     </Compile>
+    <Compile Include="layout.Master.cs">
+      <DependentUpon>layout.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="layout.Master.designer.cs">
+      <DependentUpon>layout.Master</DependentUpon>
+    </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1735,6 +1764,8 @@
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Member.cs" />
+    <Compile Include="Product.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -1754,6 +1785,7 @@
     <Content Include="Assets\font\boxicons-2.1.2\fonts\boxicons.ttf" />
     <Content Include="Assets\font\boxicons-2.1.2\fonts\boxicons.woff" />
     <Content Include="Assets\font\boxicons-2.1.2\fonts\boxicons.woff2" />
+    <Content Include="layout.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -1764,7 +1796,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Assets\js\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>

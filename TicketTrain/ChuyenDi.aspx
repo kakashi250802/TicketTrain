@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ChuyenDi.aspx.cs" Inherits="TicketTrain.ChuyenDi" %>
+﻿<p%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ChuyenDi.aspx.cs" Inherits="TicketTrain.ChuyenDi" %>
 
 <!DOCTYPE html>
 
@@ -29,37 +29,70 @@
                 </ul>
                 <ul class="menu-list">
                     <li><a class="login" href="Login.aspx">Đăng nhập</a></li>
-
+                    <li id="controlAccount"></li>
                 </ul>
             </nav>
             <!-- products content -->
     <div class="bg-main">
       <div class="container">
-          <div class="box">
+          <div class="box booking-inf">
               <div class="breadcumb">
-                  <a href="./index.html">home</a>
+                  <a href="#">Hà Nội</a>
                   <span><i class='bx bxs-chevrons-right' ></i></span>
-                  <a href="./products.html">all products</a>
+                  <a href="#">HCM</a>
+              </div>
+              <div class="dateStart">
+                <div class="img">
+                  <img src="Assets/img/datetime.svg" />
+                </div>
+                <div class="form-main">
+                  <input type="date" />
+                </div>
               </div>
           </div>
           <div class="box">
               <div class="row">
-                  <div class="col-3 filter-col" id="filter-col">
+                  <div class="col-3 " id="filter-col">
+                    <div class="filter-col">
+
                       <div class="box filter-toggle-box">
                           <button class="btn-flat btn-hover" id="filter-close">close</button>
                       </div>
                       <div class="box">
-                          <span class="filter-header">Categories</span>
+                          <span class="filter-header">Loại vé</span>
                           <ul class="filter-list">
-                              <li><a href="#">Wireless</a></li>
-                              <li><a href="#">In-ear headphone</a></li>
-                              <li><a href="#">Over-ear headphone</a></li>
-                              <li><a href="#">Sport headphone</a></li>
-                          </ul>
+                            <li>
+                                <div class="group-checkbox">
+                                    <input type="checkbox" name="" id="status1">
+                                    <label for="status1">
+                                        Giá rẻ
+                                        <i class='bx bx-check'></i>
+                                    </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="group-checkbox">
+                                    <input type="checkbox" name="" id="status2">
+                                    <label for="status2">
+                                        Bình thường
+                                        <i class='bx bx-check'></i>
+                                    </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="group-checkbox">
+                                    <input type="checkbox" name="" id="status3">
+                                    <label for="status3">
+                                        Thương gia
+                                        <i class='bx bx-check'></i>
+                                    </label>
+                                </div>
+                            </li>
+                        </ul>
                       </div>
                       <div class="box">
                           <span class="filter-header">
-                              Price
+                              Khoảng giá
                           </span>
                           <div class="price-range">
                               <input type="text" name="" id="">
@@ -67,40 +100,10 @@
                               <input type="text" name="" id="">
                           </div>
                       </div>
-                      <div class="box">
-                          <ul class="filter-list">
-                              <li>
-                                  <div class="group-checkbox">
-                                      <input type="checkbox" name="" id="status1">
-                                      <label for="status1">
-                                          On sale
-                                          <i class='bx bx-check'></i>
-                                      </label>
-                                  </div>
-                              </li>
-                              <li>
-                                  <div class="group-checkbox">
-                                      <input type="checkbox" name="" id="status2">
-                                      <label for="status2">
-                                          In stock
-                                          <i class='bx bx-check'></i>
-                                      </label>
-                                  </div>
-                              </li>
-                              <li>
-                                  <div class="group-checkbox">
-                                      <input type="checkbox" name="" id="status3">
-                                      <label for="status3">
-                                          Featured
-                                          <i class='bx bx-check'></i>
-                                      </label>
-                                  </div>
-                              </li>
-                          </ul>
-                      </div>
+                     
                       <div class="box">
                           <span class="filter-header">
-                              Brands
+                              Hãng tàu
                           </span>
 
 
@@ -109,7 +112,7 @@
                                   <div class="group-checkbox">
                                       <input type="checkbox" name="" id="brand1">
                                       <label for="brand1">
-                                              JBL
+                                              Sài Gòn
                                               <i class='bx bx-check'></i>
                                           </label>
                                   </div>
@@ -118,7 +121,7 @@
                                   <div class="group-checkbox">
                                       <input type="checkbox" name="" id="brand2">
                                       <label for="brand2">
-                                              Beat
+                                              ĐSVN
                                               <i class='bx bx-check'></i>
                                           </label>
                                   </div>
@@ -127,7 +130,7 @@
                                   <div class="group-checkbox">
                                       <input type="checkbox" name="" id="brand3">
                                       <label for="brand3">
-                                              Logitech
+                                              Vinh
                                               <i class='bx bx-check'></i>
                                           </label>
                                   </div>
@@ -136,7 +139,7 @@
                                   <div class="group-checkbox">
                                       <input type="checkbox" name="" id="brand4">
                                       <label for="brand4">
-                                              Samsung
+                                              Hà Nội
                                               <i class='bx bx-check'></i>
                                           </label>
                                   </div>
@@ -145,7 +148,7 @@
                                   <div class="group-checkbox">
                                       <input type="checkbox" name="" id="brand5">
                                       <label for="brand5">
-                                              Sony
+                                              Hải Dương
                                               <i class='bx bx-check'></i>
                                           </label>
                                   </div>
@@ -154,160 +157,71 @@
 
                       </div>
                       <div class="box">
-                          <span class="filter-header">
-                              Colors
-                          </span>
-
-
-                          <ul class="filter-list">
-                              <li>
-                                  <div class="group-checkbox">
-                                      <input type="checkbox" name="" id="color1">
-                                      <label for="color1">
-                                              Red
-                                              <i class='bx bx-check'></i>
-                                          </label>
-                                  </div>
-                              </li>
-                              <li>
-                                  <div class="group-checkbox">
-                                      <input type="checkbox" name="" id="color2">
-                                      <label for="color2">
-                                          Blue
-                                              <i class='bx bx-check'></i>
-                                          </label>
-                                  </div>
-                              </li>
-                              <li>
-                                  <div class="group-checkbox">
-                                      <input type="checkbox" name="" id="color3">
-                                      <label for="color3">
-                                             White
-                                              <i class='bx bx-check'></i>
-                                          </label>
-                                  </div>
-                              </li>
-                              <li>
-                                  <div class="group-checkbox">
-                                      <input type="checkbox" name="" id="color4">
-                                      <label for="color4">
-                                         Pink
-                                              <i class='bx bx-check'></i>
-                                          </label>
-                                  </div>
-                              </li>
-                              <li>
-                                  <div class="group-checkbox">
-                                      <input type="checkbox" name="" id="color5">
-                                      <label for="color5">
-                                          Yellow
-                                              <i class='bx bx-check'></i>
-                                          </label>
-                                  </div>
-                              </li>
-                          </ul>
-
-                      </div>
-                      <div class="box">
-                          <span class="filter-header">
-                              Colors
-                          </span>
-                          <ul class="filter-list">
-                              <li>
-                                  <div class="group-checkbox">
-                                      <input type="checkbox" name="" id="star1">
-                                      <label for="star1">
-                                              <span class="rating">
-                                                  <i class='bx bxs-star'></i>
-                                                  <i class='bx bxs-star'></i>
-                                                  <i class='bx bxs-star'></i>
-                                                  <i class='bx bxs-star'></i>
-                                                  <i class='bx bxs-star'></i>
-                                              </span>
-                                              <i class='bx bx-check'></i>
-                                          </label>
-                                  </div>
-                              </li>
-                              <li>
-                                  <div class="group-checkbox">
-                                      <input type="checkbox" name="" id="star2">
-                                      <label for="star2">
-                                              <span class="rating">
-                                                  <i class='bx bxs-star'></i>
-                                                  <i class='bx bxs-star'></i>
-                                                  <i class='bx bxs-star'></i>
-                                                  <i class='bx bxs-star'></i>
-                                                  <i class='bx bx-star' ></i>
-                                              </span>
-                                              <i class='bx bx-check'></i>
-                                          </label>
-                                  </div>
-                              </li>
-                              <li>
-                                  <div class="group-checkbox">
-                                      <input type="checkbox" name="" id="star3">
-                                      <label for="star3">
-                                              <span class="rating">
-                                                  <i class='bx bxs-star'></i>
-                                                  <i class='bx bxs-star'></i>
-                                                  <i class='bx bxs-star'></i>
-                                                  <i class='bx bx-star' ></i>
-                                                  <i class='bx bx-star' ></i>
-                                              </span>
-                                              <i class='bx bx-check'></i>
-                                          </label>
-                                  </div>
-                              </li>
-                              <li>
-                                  <div class="group-checkbox">
-                                      <input type="checkbox" name="" id="star4">
-                                      <label for="star4">
-                                              <span class="rating">
-                                                  <i class='bx bxs-star'></i>
-                                                  <i class='bx bxs-star'></i>
-                                                  <i class='bx bx-star' ></i>
-                                                  <i class='bx bx-star' ></i>
-                                                  <i class='bx bx-star' ></i>
-                                              </span>
-                                              <i class='bx bx-check'></i>
-                                          </label>
-                                  </div>
-                              </li>
-                              <li>
-                                  <div class="group-checkbox">
-                                      <input type="checkbox" name="" id="star5">
-                                      <label for="star5">
-                                              <span class="rating">
-                                                  <i class='bx bxs-star'></i>
-                                                  <i class='bx bx-star' ></i>
-                                                  <i class='bx bx-star' ></i>
-                                                  <i class='bx bx-star' ></i>
-                                                  <i class='bx bx-star' ></i>
-                                              </span>
-                                              <i class='bx bx-check'></i>
-                                          </label>
-                                  </div>
-                              </li>
-                          </ul>
-
+                        <button class="btn-flat btn-hover" type="submit" name="savefillter">Xác Nhận</button>
+                        <button class="btn-flat btn-hover" type="reset" name="resetfillter">Hủy</button>
                       </div>
                   </div>
+                </div>
+
                   <div class="col-9 col-md-12">
                       <div class="box filter-toggle-box">
                           <button class="btn-flat btn-hover" id="filter-toggle">filter</button>
                       </div>
                       <div class="box">
-                          <div class="row" id="products"></div>
-                      </div>
-                      <div class="box">
-                          <div class="pagination">
-                              <li><a href="#"><i class='bx bxs-chevron-left'></i></a></li>
-                              <li><a href="#" class="active">1</a></li>
-                              <li><a href="#">2</a></li>
-                              <li><a href="#">3</a></li>
-                              <li><a href="#">4</a></li>
-                              <li><a href="#">5</a></li>
-                              <li><a href="#"><i class='bx bxs-chevron-right'></i></a></li>
+                          <div class="row" id="products">
+                            <div class="col-12">
+                            <div class="box ">
+                              <div  class="train-item">
+
+                                <div>
+                                  <span class="filter-header">VN122255- Sai Gon</span>
+                                  <div class="timetable"><span class="start-time">2h30 A.M</span> - <span class="total-time">3h20</span> - <span class="finish-time">05:50 A.M</span></div>
+                                </div>
+                                <a href="#" class="btn">Xem Thông tin chi Tiết</a>
+                              </div>
+                                <div class="row">
+                                  <div class="col-4">
+                                    <div class="box">
+                                      <div class="head">
+                                        <p>Hạng : <span>Thường</span></p>
+                                        <p>Giá : <span>200.000đ</span></p>
+                                      </div>
+                                      <div class="info">
+                                        <p class="train-status">Đã khởi hành</p>
+                                        <p class="train-status">Không thể đặt chỗ</p>
+                                      </div>
+                                      <div class=""><button class="btn-flat btn-hover">Đặt Chỗ</button></div>
+                                    </div>
+                                  </div>
+                                  <div class="col-4">
+                                    <div class="box">
+                                      <div class="head">
+                                        <p>Hạng : <span>Thường</span></p>
+                                        <p>Giá : <span>200.000đ</span></p>
+                                      </div>
+                                      <div class="info">
+                                        <p class="train-status">Đã khởi hành</p>
+                                        <p class="train-status">Không thể đặt chỗ</p>
+                                      </div>
+                                      <div class=""><button class="btn-flat btn-hover">Đặt Chỗ</button></div>
+                                    </div>
+                                  </div>
+                                  <div class="col-4">
+                                    <div class="box">
+                                      <div class="head">
+                                        <p>Hạng : <span>Thường</span></p>
+                                        <p>Giá : <span>200.000đ</span></p>
+                                      </div>
+                                      <div class="info">
+                                        <p class="train-status">Đã khởi hành</p>
+                                        <p class="train-status">Không thể đặt chỗ</p>
+                                      </div>
+                                      <div class=""><button class="btn-flat btn-hover">Đặt Chỗ</button></div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
                           </div>
                       </div>
                   </div>

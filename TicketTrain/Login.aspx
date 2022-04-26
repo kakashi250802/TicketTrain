@@ -37,11 +37,11 @@
       <p class="or"><span>or</span></p>
       <div class="email-login">
          <label for="email"> <b>Email</b></label>
-         <input type="text" placeholder="Enter Email" name="uname" />
+         <input type="text" placeholder="Nhập Email của bạn" id="loginEmail" name="loginEmail" />
          <label for="psw"><b>Password</b></label>
-         <input type="password" placeholder="Enter Password" name="psw" />
+         <input type="password"  placeholder="Nhập mật khẩu của bạn" class="loginPass" id="loginPass" name="loginPass" />
       </div>
-      <button class="cta-btn">Đăng Nhập</button>
+      <button class="cta-btn loginbtn" id="loginSubmit" name="loginSubmit" value="true" type="submit">Đăng Nhập</button>
       <a class="forget-pass" href="ForgotPass.aspx">Quên Mật Khẩu?</a>
    </div>
 </div>
@@ -108,5 +108,6 @@
             </footer>
         </div>
     </form>
+    <script src="Assets/js/dangnhap.js"></script>
 </body>
 </html>

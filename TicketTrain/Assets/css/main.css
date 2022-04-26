@@ -44,7 +44,9 @@ a{
   transition: all 0.3s ease-in-out 0s;
   color: #414141;
 }
-
+main{
+    padding-top:100px;
+}
 
 .form-field > .form-main{
   display: flex;
@@ -115,4 +117,40 @@ a{
 }
 .btn-search > i {
   font-size: 20px;
+}
+.container {
+  max-width: 1366px;
+  margin: auto;
+  padding: 0 20px;
+  position: relative;
+}
+.box {
+  padding: 20px;
+}
+.form__group{
+  /* padding: 10px 0;
+  margin-bottom: 8px; */
+}
+.form__group > *~*{
+  margin-left: 8px;
+  margin-top: 8px;
+  
+  
+}
+input{
+  outline: none;
+  border: 1px solid transparent;
+}
+input:focus {
+  outline: none;
+  border: 1px solid #66cc99;
+}
+.error-message {
+  color: red;
+  margin-top: -30px;
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+.mb-34{
+  margin-bottom: 34px !important;
 }
