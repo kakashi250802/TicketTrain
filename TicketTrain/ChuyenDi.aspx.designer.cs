@@ -11,7 +11,7 @@ namespace TicketTrain
 {
 
 
-    public partial class ChuyenDi
+    public partial class ChuyenDi1
     {
 
         /// <summary>
@@ -22,5 +22,32 @@ namespace TicketTrain
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm chuyendiForm;
+
+        /// <summary>
+        /// controlPlace control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl controlPlace;
+
+        /// <summary>
+        /// controlTimeBooking control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputGenericControl controlTimeBooking;
+
+        /// <summary>
+        /// ControlTrips control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl ControlTrips;
     }
 }

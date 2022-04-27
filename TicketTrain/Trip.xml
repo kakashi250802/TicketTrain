@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTrip xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Trip>
+		<Id>1</Id>
+		<TenTau>vnTrip0001RainWay</TenTau>
+		<GaTau>Hà Nội,Giáp Bát,Văniển,Thường Tín,Chợ Tía,Phú Xuyên,Phủ Lý,Vinh,Đồng Hới,Huế,Đà Nẵng,Sài Gòn</GaTau>
+		<NgayChay>1,4,6,8,11,15,24,28</NgayChay>
+		<TimeBatDau>5: 30 AM</TimeBatDau>
+		<TimeKetThuc>6: 30 PM</TimeKetThuc>
+		<VePhoThong>200000</VePhoThong>
+		<VeThuong>250000</VeThuong>
+		<VeVip>400000</VeVip>
+		<ckTrong>true</ckTrong>
+	</Trip>
+	<Trip>
+		<Id>2</Id>
+		<TenTau>vn-Trip 00011 - RainWay</TenTau>
+		<GaTau>Hà Nội,Giáp Bát,Văniển,Thường Tín,Chợ Tía,Phú Xuyên,Phủ Lý,Vinh,Đồng Hới,Huế,Đà Nẵng,Sài Gòn</GaTau>
+		<NgayChay>1,4,6,8,11,15,24,28</NgayChay>
+		<TimeBatDau>5: 30 AM</TimeBatDau>
+		<TimeKetThuc>6: 30 PM</TimeKetThuc>
+		<VePhoThong>200000</VePhoThong>
+		<VeThuong>250000</VeThuong>
+		<VeVip>400000</VeVip>
+		<ckTrong>true</ckTrong>
+	</Trip>
+	<Trip>
+		<Id>3</Id>
+		<TenTau>vn-Trip 000111 - RainWay</TenTau>
+		<GaTau>Hà Nội,Giáp Bát,Văniển,Thường Tín,Chợ Tía,Phú Xuyên,Phủ Lý,Vinh,Đồng Hới,Huế,Đà Nẵng,Sài Gòn</GaTau>
+		<NgayChay>1,4,6,8,11,15,24,28</NgayChay>
+		<TimeBatDau>5: 30 AM</TimeBatDau>
+		<TimeKetThuc>6: 30 PM</TimeKetThuc>
+		<VePhoThong>200000</VePhoThong>
+		<VeThuong>250000</VeThuong>
+		<VeVip>400000</VeVip>
+		<ckTrong>true</ckTrong>
+	</Trip>
+	<Trip>
+		<Id>4</Id>
+		<TenTau>vn-Trip 0001 - RainWay</TenTau>
+		<GaTau>Hà Nội,Giáp Bát,Văniển,Thường Tín,Chợ Tía,Phú Xuyên,Phủ Lý,Vinh,Đồng Hới,Huế,Đà Nẵng,Sài Gòn</GaTau>
+		<NgayChay>1,4,6,8,11,15,24,28</NgayChay>
+		<TimeBatDau>5: 30 AM</TimeBatDau>
+		<TimeKetThuc>6: 30 PM</TimeKetThuc>
+		<VePhoThong>200000</VePhoThong>
+		<VeThuong>250000</VeThuong>
+		<VeVip>400000</VeVip>
+		<ckTrong>true</ckTrong>
+	</Trip>
+	<Trip>
+		<Id>5</Id>
+		<TenTau>vn-Trip 000145 - RainWay</TenTau>
+		<GaTau>Hà Nội,Giáp Bát,Văniển,Thường Tín,Chợ Tía,Phú Xuyên,Phủ Lý,Vinh,Đồng Hới,Huế,Đà Nẵng,Sài Gòn</GaTau>
+		<NgayChay>1,4,6,8,11,15,24,28</NgayChay>
+		<TimeBatDau>5: 30 AM</TimeBatDau>
+		<TimeKetThuc>6: 30 PM</TimeKetThuc>
+		<VePhoThong>200000</VePhoThong>
+		<VeThuong>250000</VeThuong>
+		<VeVip>400000</VeVip>
+		<ckTrong>true</ckTrong>
+	</Trip>
+	<Trip>
+		<Id>6</Id>
+		<TenTau>vn-Trip 0001 - RainWay</TenTau>
+		<GaTau>Hà Nội,Giáp Bát,Văniển,Thường Tín,Chợ Tía,Phú Xuyên,Phủ Lý,Vinh,Đồng Hới,Huế,Đà Nẵng,Sài Gòn</GaTau>
+		<NgayChay>1,4,6,8,11,15,24,28</NgayChay>
+		<TimeBatDau>5: 30 AM</TimeBatDau>
+		<TimeKetThuc>6: 30 PM</TimeKetThuc>
+		<VePhoThong>200000</VePhoThong>
+		<VeThuong>250000</VeThuong>
+		<VeVip>400000</VeVip>
+		<ckTrong>true</ckTrong>
+	</Trip>
+	<Trip>
+		<Id>7</Id>
+		<TenTau>vn-Trip 0001 - RainWay</TenTau>
+		<GaTau>Hà Nội,Giáp Bát,Văniển,Thường Tín,Chợ Tía,Phú Xuyên,Phủ Lý,Vinh,Đồng Hới,Huế,Đà Nẵng,Sài Gòn</GaTau>
+		<NgayChay>1,4,6,8,11,15,24,28</NgayChay>
+		<TimeBatDau>5: 30 AM</TimeBatDau>
+		<TimeKetThuc>6: 30 PM</TimeKetThuc>
+		<VePhoThong>200000</VePhoThong>
+		<VeThuong>250000</VeThuong>
+		<VeVip>400000</VeVip>
+		<ckTrong>true</ckTrong>
+	</Trip>
+	<Trip>
+		<Id>10</Id>
+		<TenTau>vn-Trip 0006 - RainWay</TenTau>
+		<GaTau>Hà Nội,Giáp Bát,Văniển,Thường Tín,Chợ Tía,Phú Xuyên,Phủ Lý,Vinh,Đồng Hới,Huế,Đà Nẵng,Sài Gòn</GaTau>
+		<NgayChay>3,4,6,9,11,15,24,28</NgayChay>
+		<TimeBatDau>5: 30 AM</TimeBatDau>
+		<TimeKetThuc>6: 30 PM</TimeKetThuc>
+		<VePhoThong>200000</VePhoThong>
+		<VeThuong>250000</VeThuong>
+		<VeVip>400000</VeVip>
+		<ckTrong>true</ckTrong>
+	</Trip>
+	<Trip>
+		<Id>12</Id>
+		<TenTau>vn-Trip 0002 - RainWay</TenTau>
+		<GaTau>Hà Nội,Giáp Bát,Văniển,Thường Tín,Chợ Tía,Phú Xuyên,Phủ Lý,Vinh,Đồng Hới,Huế,Đà Nẵng,Sài Gòn</GaTau>
+		<NgayChay>1,4,6,8,11,15,24,28</NgayChay>
+		<TimeBatDau>5: 30 AM</TimeBatDau>
+		<TimeKetThuc>6: 30 PM</TimeKetThuc>
+		<VePhoThong>200000</VePhoThong>
+		<VeThuong>250000</VeThuong>
+		<VeVip>400000</VeVip>
+		<ckTrong>true</ckTrong>
+	</Trip>
+
+</ArrayOfTrip>

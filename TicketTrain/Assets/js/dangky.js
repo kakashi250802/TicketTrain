@@ -1,5 +1,6 @@
-﻿var fname = document.getElementById('fullName').value;
+﻿var fname = document.getElementById('hoten').value;
 var pnumber = document.getElementById('phoneNumber').value;
+var inputTexts = document.querySelectorAll("input[type='text']")
 function formValidation() {
   // var genderNam = document.getElementById('genderFeMale').value;
   // var genderNu = document.getElementById('genderMale').value;
@@ -134,9 +135,14 @@ else {
 }
 }
 document.querySelector(".btn-dangky").addEventListener("click", (e)=>{
-  e.preventDefault();
+  //e.preventDefault();
  // formValidation();
- validateFullName();
+    //validateFullName();
+    
+   /* inputTexts.forEach(e => {
+        e.style.backgroundColor = "red";
+    })
+    alert("hmmmm");*/
 })
 // const validateFullName = () => {
 //   fname.addEventListener("change", (e)=>{

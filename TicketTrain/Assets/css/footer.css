@@ -209,7 +209,7 @@
 
 @media (max-width: 768px) {
     footer {
-        padding: 40px;
+        /* padding: 40px; */
     }
 
         footer .container {

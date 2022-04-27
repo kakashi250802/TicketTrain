@@ -1,38 +1,101 @@
 ﻿@media only screen and (max-width: 1280px) {
   .header-navbar{
     flex-direction: column;
-    height: 100vh !important;
+    height: 100% !important;
     justify-content: unset !important;
-    width: 400px !important;
-    left: -32% !important;
-    padding: 10px 43px 10px 0 !important;
+    width: 100% !important;
+    padding: 0 4px !important;
+    transition: all 0.3s ease-in-out 0s;
   }
     .showmenu {
-        left: 0 !important;
+      opacity: 1 !important;
+      visibility: visible !important;
     }
-  .header-navbar ul{
-    float: unset !important;
-    display: block !important;
-    width: 100%;
-    text-align: center ;
+    .header-navbar.show-nav{
+      height: max-content !important;
+    }
+    .header-navbar .logo {
+      display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    .header-navbar .logo{
+      width:100% ;
+    }
+    .header-navbar ul{
+      flex: unset !important;
+      flex-direction: column !important;
+      align-items: center;
+    }
+    .header-navbar ul{
+      width: 100%;
+    }
+    .header-navbar ul li{
+      width: 100%;
+
+    }
+    .content p{
+      width: unset !important;
+    }
+    .sec1{
+      height:620px !important;
+    }
+    .header-navbar ul li a{
+      width: 100% !important;
+
+    }
+    .header-navbar ul {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      margin-left: 44px;
+      opacity: 0;
+      visibility: hidden;
+      transition: all 0.3 ease-in-out 0s;
   }
-  .header-navbar ul > * ~ *{
-    margin: unset !important;
+    .header-navbar ul > * ~ *{
+      margin: unset !important;
+    }
+    #controlAccount{
+      display: block;
+      margin-top: 16px !important;
+      text-align: center!important;
+      padding-bottom: 16px;
+    }
+    .header-navbar ul li a.login{
+      width: 100% !important;
+      padding: 30px 0 !important;
+      display: block !important;
+      margin-top: 26px;
+    }
+    .nav-toggler{
+      opacity: 1 !important;
+      visibility: visible !important;
+    }
+    ::-webkit-scrollbar {
+      display: none;
   }
-  .header-navbar ul li a{
-    width:100% !important;
+  .filter-toggle-box {
+      display: block;
   }
-  .header-navbar ul li a.login{
-    width: 100% !important;
-    padding: 20px 0 !important;
-    /* height: 42px !important; */
-    display: block !important;
-    margin-top: 26px;
+  .filter-col {
+      position: fixed;
+      width: 100%;
+      background-color: var(--main-bg-color);
+      z-index: 98;
+      left: 100%;
+      height: 80vh;
+      overflow-y: scroll;
+      box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+      transition: left 0.2s ease-in-out;
   }
-  .nav-toggler{
-    opacity: 1 !important;
-    visibility: visible !important;
+  .filter-col.active {
+      left: 0;
   }
+  .pagination {
+      justify-content: center;
+  }
+   
     .form-booking {
         display: flex;
         align-items: flex-start !important;
@@ -40,7 +103,9 @@
         width: unset !important;
         flex-direction: column !important;
     }
-
+    .header-navbar {
+        height: 100px !important;
+    }
 }
 
 @media only screen and (max-width: 750px) {

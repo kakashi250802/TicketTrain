@@ -4,32 +4,33 @@
 
 <html>
 <head runat="server">
-        <title>DVA - Web bán vé tàu</title>
     <link href="Assets/css/header.css" rel="stylesheet" />
     <link href="Assets/css/footer.css" rel="stylesheet" />
     <link href="Assets/css/responsive.css" rel="stylesheet" />
+    <link href="Assets/font/boxicons-2.1.2/css/boxicons.min.css" rel="stylesheet" />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
+    
+    
         <div>
                     <nav class="header-navbar">
-                    <div class="nav-toggler">
-                    <i class="bx bx-menu"></i>
-                    </div>
             <div class="logo">
                 <a href="index.aspx">
                     <img src="Assets/img/logo.png" />
                 </a>
+                    <div class="nav-toggler">
+                    <i class="bx bx-menu"></i>
+                    </div>
             </div>
             <ul class="menu-list">
                 <li ><a href="index.aspx">Trang chủ</a></li>
                 <li><a href="chuyenDi.aspx">Chuyến Đi</a></li>
                 <li class="active"><a href="TinTuc.html">Tin Tức</a></li>
+                  <li id="controlAccount" runat="server"></li>
             </ul>
-            <ul class="menu-list">
-                <li id="controlAccount" runat="server"></li>
-            </ul>
+
         </nav>
             <asp:ContentPlaceHolder ID="main" runat="server">
             </asp:ContentPlaceHolder>
@@ -47,9 +48,9 @@
                         eaque quo dolorum.
                     </p>
                     <ul class="social-icon">
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                        <li><a href="#"><i class='bx bxl-facebook-circle'></i></a></li>
+                        <li><a href="#"><i class='bx bxl-instagram' ></i></a></li>
+                        <li><a href="#"><i class='bx bxl-youtube' ></i></a></li>
                     </ul>
                 </div>
                 <!--Kết Thúc Nội Dung Giới Thiệu-->
@@ -96,6 +97,10 @@
             </div>
         </footer>
         </div>
-    <script src="Assets/js/header.js"></script>
+          
+        <asp:ContentPlaceHolder ID="js" runat="server">
+    </asp:ContentPlaceHolder>
+            <script src="Assets/js/header.js"></script>
+
 </body>
 </html>

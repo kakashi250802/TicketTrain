@@ -1,21 +1,17 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/layout.Master" CodeBehind="index.aspx.cs" Inherits="TicketTrain.index" %>
 
-
-
-
     <asp:Content ContentPlaceHolderID="head" runat="server">
     <link href="Assets/css/header.css" rel="stylesheet" />
     <link href="Assets/css/main.css" rel="stylesheet" />
     <link href="Assets/css/footer.css" rel="stylesheet" />
     <link href="Assets/font/boxicons-2.1.2/css/boxicons.min.css" rel="stylesheet" />
+    <title>DVA - Web bán vé tàu</title>
     </asp:Content>
-
             <asp:Content ID="Content1" ContentPlaceHolderID="main" runat="server">
-    <form id="form1" runat="server">
+                <form id="form1wwww" runat="server" >
         <div class="wrapped">
             <section class="sec1">
               <div class="form">
-
               <div class="form-booking">
                 <div class="form-field">
                   <div class="img">
@@ -23,7 +19,7 @@
                   </div>
                   <div class="form-main">
                     <label for="">Từ</label>
-                    <input class="first-place" list="listStationBegin">
+                    <input class="first-place" list="listStationBegin" id="placeBegin" name="placeBegin">
                     <datalist class="trainStationBegin" id="listStationBegin">
                     <option value="Hà Nội">
                     <option value="Giáp Bát">
@@ -47,7 +43,7 @@
                   </div>
                   <div class="form-main">
                     <label for="" >Đến</label>
-                  <input class="finally-place" list="listStationEnd">
+                  <input class="finally-place" list="listStationEnd" id="placeEnd"  name="placeEnd">
                   <datalist class="trainStationEnd" id="listStationEnd">
                   <option value="Hà Nội">
                   <option value="Giáp Bát">
@@ -70,12 +66,12 @@
                   </div>
                   <div class="form-main">
                     <label for="">Thời gian</label>
-                    <input type="date" />
+                    <input type="date" class="timeBooking" id="timeBooking" name="timeBooking"/>
                   </div>
                 </div>
                 <div class="form-field">
 
-                  <button class="form-suibmit btn btn-xs btn-primary btn-search">
+                  <button class="form-suibmit btn btn-xs btn-primary btn-search searchSubmit" id="searchSubmit" name="searchSubmit" value="true" type="submit">
                     <span>tìm kiếm</span>
                     <i class='bx bx-search-alt'></i>
                   </button>
@@ -90,6 +86,9 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, excepturi exercitationem accusamus a laudantium voluptatibus blanditiis. Beatae, sit vel id at rerum provident error. Sapiente quae quisquam et reiciendis eius magnam autem maiores, voluptatem commodi. Sit, repellat. Accusantium perspiciatis id ullam ab. Nisi placeat deleniti ullam autem laboriosam. Vel aperiam ipsum, dolorem earum eum cum veritatis deserunt at qui? Eveniet sed, ullam quia esse molestias a ex eius modi. Molestias, sapiente. Beatae, sit vel id at rerum provident error. Sapiente quae quisquam et reiciendis eius magnam autem maiores, voluptatem commodi. Sit, repellat. Accusantium perspiciatis id ullam ab. Nisi placeat deleniti ullam autem laboriosam. Vel aperiam ipsum, dolorem earum eum cum veritatis deserunt at qui? Eveniet sed, ullam quia esse molestias a ex eius modi. Molestias, sapiente.</p>
             </section>
         </div>
-    </form>
+                    </form>
             </asp:Content>
+    <asp:Content ID="js" ContentPlaceHolderID="js" runat="server">
+        <script src="Assets/js/home.js"></script>
+    </asp:Content>
 

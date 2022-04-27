@@ -1,6 +1,7 @@
-﻿var menu = document.querySelector(".header-navbar");
-
+﻿var nav = document.querySelector(".header-navbar");
+var listItems = document.querySelector(".menu-list")
 document.querySelector(".nav-toggler").addEventListener("click", e =>{
-  menu.classList.toggle("showmenu");
+  nav.classList.toggle("show-nav");
+  listItems.classList.toggle("showmenu");
     
 })
