@@ -10,6 +10,8 @@ Inherits="TicketTrain.DangKy" %>
     <link href="Assets/css/footer.css" rel="stylesheet" />
     <link href="Assets/css/login.css" rel="stylesheet" />
     <link href="Assets/css/main.css" rel="stylesheet" />
+    <link href="Assets/css/responsive.css" rel="stylesheet" />
+      <link href="Assets/font/boxicons-2.1.2/css/boxicons.min.css" rel="stylesheet" />
   </head>
   <body>
     <form id="formDangKy" runat="server">
@@ -18,16 +20,17 @@ Inherits="TicketTrain.DangKy" %>
           <div class="logo">
             <a href="index.aspx">
               <img src="Assets/img/logo.png" />
-            </a>
+            </a>                <div class="nav-toggler">
+                    <i class="bx bx-menu"></i>
+                </div>
           </div>
           <ul class="menu-list">
             <li class=""><a href="index.aspx">Trang chủ</a></li>
             <li><a href="#">Chuyến Đi</a></li>
             <li><a href="#">Tin Tức</a></li>
+            <li><a class="login active center" href="Login.aspx">Đăng nhập</a></li>
           </ul>
-          <ul class="menu-list">
-            <li><a class="login active" href="Login.aspx">Đăng nhập</a></li>
-          </ul>
+
         </nav>
         <main>
           <div class="card">
@@ -154,5 +157,6 @@ Inherits="TicketTrain.DangKy" %>
       </div>
     </form>
     <script src="Assets/js/dangky.js"></script>
+      <script src="Assets/js/header.js"></script>
   </body>
 </html>

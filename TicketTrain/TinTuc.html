@@ -6,8 +6,9 @@
     <link href="Assets/css/header.css" rel="stylesheet" />
     <link href="Assets/css/main.css" rel="stylesheet" />
     <link href="Assets/css/footer.css" rel="stylesheet" />
+    <link href="Assets/font/boxicons-2.1.2/css/boxicons.min.css" rel="stylesheet" />
     <link href="Assets/css/grid.css" rel="stylesheet" />
-    <link href="Assets/font/boxicons-2.1.2/css/TinTuc.css" rel="stylesheet" />
+    <link href="Assets/css/responsive.css" rel="stylesheet" />
 </head>
 <body>
     <div class="wrapped">
@@ -16,16 +17,17 @@
                 <a href="index.aspx">
                     <img src="Assets/img/logo.png" />
                 </a>
+                <div class="nav-toggler">
+                    <i class="bx bx-menu"></i>
+                </div>
             </div>
             <ul class="menu-list">
                 <li><a href="index.aspx">Trang chủ</a></li>
                 <li><a href="chuyenDi.aspx">Chuyến Đi</a></li>
                 <li class="active"><a href="TinTuc.html">Tin Tức</a></li>
+                <li id="controlAccount"><a class="login " href="Login.aspx">Đăng nhập</a></li>
             </ul>
-            <ul class="menu-list">
-                <li><a class="login" href="Login.aspx">Đăng nhập</a></li>
 
-            </ul>
         </nav>
         <main>
             <div class="container tintuc-lists">
@@ -102,7 +104,7 @@
                                 <h4 class="news-content-desc">Công ty CP Vận tải đường sắt Sài Gòn hướng dẫn đổi, trả vé đối với hành khách mua vé đi vào các đoàn tàu khách</h4>
                             </div>
                         </div>
-                                                <div class="col-3">
+                        <div class="col-3">
                             <div class="news-content">
                                 <h3 class="news-content-title">
                                     <a href="TinTuc1.html">[TB] LỊCH CHẠY TÀU LỄ 30/04 - 01/05/2022</a>
@@ -240,6 +242,7 @@
                 <!--Kết Thúc Nội Dung Liên Hệ-->
             </div>
         </footer>
+        <script src="Assets/js/header.js"></script>
     </div>
 </body>
 </html>

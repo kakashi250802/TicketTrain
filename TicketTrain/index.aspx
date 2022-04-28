@@ -86,6 +86,8 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, excepturi exercitationem accusamus a laudantium voluptatibus blanditiis. Beatae, sit vel id at rerum provident error. Sapiente quae quisquam et reiciendis eius magnam autem maiores, voluptatem commodi. Sit, repellat. Accusantium perspiciatis id ullam ab. Nisi placeat deleniti ullam autem laboriosam. Vel aperiam ipsum, dolorem earum eum cum veritatis deserunt at qui? Eveniet sed, ullam quia esse molestias a ex eius modi. Molestias, sapiente. Beatae, sit vel id at rerum provident error. Sapiente quae quisquam et reiciendis eius magnam autem maiores, voluptatem commodi. Sit, repellat. Accusantium perspiciatis id ullam ab. Nisi placeat deleniti ullam autem laboriosam. Vel aperiam ipsum, dolorem earum eum cum veritatis deserunt at qui? Eveniet sed, ullam quia esse molestias a ex eius modi. Molestias, sapiente.</p>
             </section>
         </div>
+                     <%-- <p>Online Users:<asp:Label ID="Label1" runat="server" Text="Label" ForeColor="#CC0000"></asp:Label></p>  
+                     <p id="local_host" runat="server"></p>   --%>
                     </form>
             </asp:Content>
     <asp:Content ID="js" ContentPlaceHolderID="js" runat="server">

@@ -11,10 +11,11 @@ namespace TicketTrain
     {
         protected void Application_Start(object sender, EventArgs e)
         {
-
+            Application["TotalOnlineUsers"] = 0;
         }
         protected void Session_Start(object sender, EventArgs e)
         {
+
             //user
             Session["login"] = false;
             Session["Id"] = "";

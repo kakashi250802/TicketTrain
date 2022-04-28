@@ -47,9 +47,10 @@
 
         .header-navbar ul li {
             list-style: none;
-        }
-        .header-navbar ul > * ~ * {
+          }
+          .header-navbar ul > * ~ * {
             margin-left: 40px;
+            transition: all 0.3s ease-in-out 0s;
         }
         .header-navbar ul li a {
             display: flex;
@@ -62,6 +63,7 @@
             text-transform: uppercase;
             transition: all .3s ease 0s;
         }
+    .header-navbar ul li:hover a,
             .header-navbar ul li a.login.active,
             .header-navbar ul li.active a {
                 border-top-left-radius: 4px;

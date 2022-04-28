@@ -1711,6 +1711,7 @@
     <Content Include="Assets\js\dangnhap.js" />
     <Content Include="Assets\js\home.js" />
     <Content Include="Assets\js\header.js" />
+    <Content Include="Assets\js\slidemaster.js" />
     <Content Include="ChuyenDi.aspx" />
     <Content Include="DangKy.aspx" />
     <Content Include="dangxuat.aspx" />

@@ -12,8 +12,11 @@ namespace TicketTrain
         protected void Page_Load(object sender, EventArgs e)
         {
             Session.Abandon();
-
-            Response.Redirect("index.aspx");
+            // -1 where user logout
+            // Application.Lock();
+            // Application["TotalOnlineUsers"] = (int)Application["TotalOnlineUsers"] - 1;
+            // Application.UnLock();
+            // Response.Redirect("index.aspx");
         }
     }
 }

@@ -6,6 +6,9 @@ a{
     text-decoration:none;
     color:currentColor;
 }
+.center {
+    text-align:center;
+}
 @font-face {
     font-family: rbBold;
     src: url(../font/Roboto-Bold.ttf);

@@ -24,10 +24,10 @@
                     <i class="bx bx-menu"></i>
                     </div>
             </div>
-            <ul class="menu-list">
-                <li ><a href="index.aspx">Trang chủ</a></li>
-                <li><a href="chuyenDi.aspx">Chuyến Đi</a></li>
-                <li class="active"><a href="TinTuc.html">Tin Tức</a></li>
+            <ul class="menu-list" id="menulist">
+                <li class="item"><a href="index.aspx">Trang chủ</a></li>
+                <li class="item"><a href="chuyenDi.aspx">Chuyến Đi</a></li>
+                <li class="item"><a href="TinTuc.html">Tin Tức</a></li>
                   <li id="controlAccount" runat="server"></li>
             </ul>
 
@@ -101,6 +101,6 @@
         <asp:ContentPlaceHolder ID="js" runat="server">
     </asp:ContentPlaceHolder>
             <script src="Assets/js/header.js"></script>
-
+    <script src="Assets/js/slidemaster.js"></script>
 </body>
 </html>

@@ -105,6 +105,10 @@ namespace TicketTrain
 
                 if ((bool)Session["login"] == true)
                 {
+                    // add user online
+                    Application.Lock();
+                    Application["TotalOnlineUsers"] = (int)Application["TotalOnlineUsers"] + 1;
+                    Application.UnLock();
                     Response.Redirect("index.aspx");
                 }
             }
